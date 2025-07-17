@@ -11,12 +11,12 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__container">
+      <div class="header__container container">
         <img class="header__logo" src="./assets/images/logo.svg" alt="" />
       </div>
     </header>
     <main class="main">
-      <div class="main__container">
+      <div class="main__container container">
         <div class="intro">
           <h1 class="intro__title">A history of everything you copy</h1>
           <p class="intro__description">
@@ -24,18 +24,22 @@
             devices.
           </p>
           <div class="intro__action">
-            <a class="intro__link" href="">Download for IOS</a>
-            <a class="intro__link" href="">Download for Mac</a>
+            <a class="intro__link btn btn--primary" href="">Download for IOS</a>
+            <a class="intro__link btn btn--secondary" href="">Download for Mac</a>
           </div>
         </div>
         <section class="features">
-          <h2 class="features__title">Keep track of your snippets</h2>
-          <p class="features__description">
-            Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately
-            on all your devices. Our Mac and iOS apps will help you organize everything.
-          </p>
+          <header class="features__header">
+            <h2 class="features__title">Keep track of your snippets</h2>
+            <p class="features__description">
+              Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets
+              immediately on all your devices. Our Mac and iOS apps will help you organize everything.
+            </p>
+          </header>
           <div class="features__content">
-            <img class="features__image" src="./assets/images/image-computer.png" alt="" />
+            <div class="features__image-wrapper">
+              <img class="features__image" src="./assets/images/image-computer.png" alt="" />
+            </div>
             <ul class="features__list" role="list">
               <li class="features__item">
                 <h3 class="features__item-title">Quick Search</h3>
@@ -134,7 +138,7 @@
       </div>
     </main>
     <footer class="footer">
-      <div class="footer__container">
+      <div class="footer__container container">
         <nav class="nav" aria-label="Footer nvigation">
           <a class="nav__home-link" href="">
             <img class="nav__logo" src="./assets/images/logo.svg" alt="" />
