@@ -10,6 +10,8 @@
 @import "./components/button.css";
 @import "./components/intro.css";
 @import "./components/features.css";
+@import "./components/access.css";
+@import "./components/tools.css";
 
 .header {
     &__logo {
