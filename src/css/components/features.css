@@ -52,7 +52,7 @@
         letter-spacing: 0.007em;
         font-size: var(--text-md);
         line-height: clamp(1.625rem, 1.4974rem + 0.5442vw, 1.875rem);
-        max-width: 33ch;
+        max-width: 34ch;
     }
 
     @media (--tablet) {
