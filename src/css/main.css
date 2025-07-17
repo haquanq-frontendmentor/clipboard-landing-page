@@ -1,14 +1,20 @@
 @import "./base/fonts.css";
 @import "./base/variables.css";
 @import "./base/reset.css";
+@import "./base/breakpoints.css";
 
 @import "./layouts/container.css";
 
 @import "./components/button.css";
 @import "./components/intro.css";
+@import "./components/features.css";
 
 .header {
     &__logo {
         margin-block: 8.1875rem 3.5625rem;
     }
+}
+
+.main {
+    overflow: hidden;
 }
