@@ -62,3 +62,18 @@ a {
     text-decoration: none;
     color: var(--color-gray-900);
 }
+
+@supports selector(:focus-visible) {
+    a:focus,
+    button:focus {
+        outline: 0;
+    }
+
+    a:focus-visible,
+    button:focus-visible {
+        outline-width: var(--outline-width, var(--focus-outline-width));
+        outline-style: var(--outline-style, var(--focus-outline-style));
+        outline-color: var(--outline-color, var(--focus-outline-color));
+        outline-offset: var(--outline-offset, var(--focus-outline-offset));
+    }
+}

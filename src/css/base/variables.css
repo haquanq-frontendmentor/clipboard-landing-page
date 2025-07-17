@@ -26,4 +26,9 @@
     --text-6xl: 2.875rem;
 
     --rounded-full: 9999px;
+
+    --focus-outline-width: 3px;
+    --focus-outline-offset: 3px;
+    --focus-outline-style: dashed;
+    --focus-outline-color: var(--color-green-500);
 }
