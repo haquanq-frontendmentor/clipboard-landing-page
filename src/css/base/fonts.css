@@ -1,6 +1,6 @@
 /* bai-jamjuree-regular - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: auto; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: "Bai Jamjuree";
     font-style: normal;
     font-weight: 400;
@@ -12,7 +12,7 @@
 
 /* bai-jamjuree-600 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: auto; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: "Bai Jamjuree";
     font-style: normal;
     font-weight: 600;
