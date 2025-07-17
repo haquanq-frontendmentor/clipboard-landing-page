@@ -17,6 +17,17 @@
 @import "./components/socials.css";
 @import "./components/nav.css";
 
+body {
+    background-image: url("../assets/images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+
+    @media (--tablet) {
+        background-image: url("../assets/images/bg-header-desktop.png");
+    }
+}
+
 .header {
     &__logo {
         margin-block: 8.1875rem 3.5625rem;
