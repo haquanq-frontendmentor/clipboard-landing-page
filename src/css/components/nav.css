@@ -35,6 +35,12 @@
         }
     }
 
+    @media (prefers-reduced-motion: reduce) {
+        &__link {
+            transition: none;
+        }
+    }
+
     @media (--tablet) {
         &__list {
             grid-template-columns: repeat(3, 190px);

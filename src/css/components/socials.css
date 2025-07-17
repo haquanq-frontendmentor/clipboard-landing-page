@@ -11,12 +11,19 @@
     }
 
     &__icon path {
+        fill: var(--icon-color);
         transition: fill 200ms ease;
     }
 
+    @media (prefers-reduced-motion: reduce) {
+        &__icon path {
+            transition: none;
+        }
+    }
+
     @media (hover: hover) {
-        &__link:hover &__icon path {
-            fill: var(--color-green-500);
+        &__link:hover {
+            --icon-color: var(--color-green-500);
         }
     }
 }
