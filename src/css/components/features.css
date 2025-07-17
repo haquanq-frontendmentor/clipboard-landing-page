@@ -11,12 +11,14 @@
     }
 
     &__title {
+        letter-spacing: -0.016em;
         font-size: clamp(var(--text-3xl), 1.2729rem + 2.0356vw, var(--text-5xl));
         line-height: clamp(2.25rem, 1.7729rem + 2.0356vw, 2.75rem);
         margin-bottom: clamp(0.9375rem, 0.6393rem + 1.2723vw, 1.25rem);
     }
 
     &__description {
+        letter-spacing: 0.007em;
         font-size: clamp(var(--text-md), 0.8807rem + 0.5089vw, var(--text-lg));
         line-height: clamp(1.625rem, 1.3865rem + 1.0178vw, 1.875rem);
     }
@@ -40,15 +42,17 @@
     }
 
     &__item-title {
+        letter-spacing: -0.016em;
         font-size: var(--text-2xl);
         line-height: 1.875rem;
         margin-bottom: 0.5rem;
     }
 
     &__item-description {
+        letter-spacing: 0.007em;
         font-size: var(--text-md);
         line-height: clamp(1.625rem, 1.4974rem + 0.5442vw, 1.875rem);
-        max-width: 35ch;
+        max-width: 33ch;
     }
 
     @media (--tablet) {
@@ -70,8 +74,9 @@
 
         &__list {
             padding-inline-start: clamp(1rem, -5.7143rem + 13.9881vw, 6.875rem);
-            padding-block: 0 1.25rem;
+            padding-block: 0 1.875rem;
             text-align: start;
+            gap: 3.5rem;
         }
 
         &__item {

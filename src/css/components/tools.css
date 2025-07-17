@@ -1,5 +1,5 @@
 .tools {
-    padding-block-start: clamp(8.25rem, 7.1305rem + 4.7766vw, 10.1875rem);
+    padding-block-start: 8rem;
     padding-block-end: 9.875rem;
     width: 100%;
     text-align: center;
@@ -9,13 +9,14 @@
     }
 
     &__title {
-        letter-spacing: -0.02em;
+        letter-spacing: -0.016em;
         font-size: clamp(var(--text-3xl), 1.2729rem + 2.0356vw, var(--text-5xl));
         line-height: clamp(2.25rem, 1.7729rem + 2.0356vw, 2.75rem);
         margin-block-end: clamp(1rem, 0.7615rem + 1.0178vw, 1.25rem);
     }
 
     &__description {
+        letter-spacing: 0.007em;
         font-size: clamp(var(--text-md), 0.8807rem + 0.5089vw, var(--text-lg));
         line-height: clamp(1.625rem, 1.3865rem + 1.0178vw, 1.875rem);
     }
@@ -31,27 +32,33 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-width: 22rem;
     }
 
     &__item-icon {
-        padding-block-start: 0.25rem;
         height: 2.5rem;
         margin-block-end: 2.5rem;
+        display: flex;
+        align-items: center;
     }
 
     &__item-title {
+        letter-spacing: -0.016em;
         font-size: var(--text-2xl);
         line-height: 1.875rem;
         margin-bottom: 1rem;
     }
 
     &__item-description {
+        text-wrap: unset;
+        letter-spacing: 0.007em;
         font-size: var(--text-md);
         line-height: clamp(1.625rem, 1.3865rem + 1.0178vw, 1.875rem);
+        max-width: 35ch;
     }
 
     @media (--laptop) {
+        padding-block-start: 4.5rem;
+
         &__header {
             margin-block-end: 4.5rem;
         }
