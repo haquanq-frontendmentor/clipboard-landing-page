@@ -5,7 +5,7 @@
     text-align: center;
 
     &__header {
-        margin-bottom: 5.625rem;
+        margin-block-end: 5.625rem;
     }
 
     &__title {
@@ -45,7 +45,7 @@
         letter-spacing: -0.016em;
         font-size: var(--text-2xl);
         line-height: 1.875rem;
-        margin-bottom: 1rem;
+        margin-block-end: 1rem;
     }
 
     &__item-description {
