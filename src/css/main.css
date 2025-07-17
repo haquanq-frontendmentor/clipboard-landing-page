@@ -12,6 +12,8 @@
 @import "./components/features.css";
 @import "./components/access.css";
 @import "./components/tools.css";
+@import "./components/companies.css";
+@import "./components/download.css";
 
 .header {
     &__logo {
