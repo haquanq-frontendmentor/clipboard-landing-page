@@ -2,17 +2,22 @@
     text-align: center;
 
     &__title {
-        letter-spacing: -0.02em;
+        letter-spacing: -0.016em;
         font-size: clamp(var(--text-3xl), 1.2729rem + 2.0356vw, var(--text-5xl));
         line-height: clamp(2.25rem, 1.7729rem + 2.0356vw, 2.75rem);
         margin-block-end: clamp(1rem, 0.7615rem + 1.0178vw, 1.25rem);
     }
 
     &__description {
-        max-width: 40rem;
+        letter-spacing: 0.007em;
+        max-width: 44rem;
         margin-inline: auto;
         font-size: clamp(var(--text-md), 0.8807rem + 0.5089vw, var(--text-lg));
         line-height: clamp(1.625rem, 1.3865rem + 1.0178vw, 1.875rem);
-        margin-block-end: clamp(4rem, 2.2666rem + 7.396vw, 7rem);
+        margin-block-end: clamp(4rem, 2.6999rem + 5.547vw, 6.25rem);
+    }
+
+    &__image {
+        transform: translateX(3px);
     }
 }
