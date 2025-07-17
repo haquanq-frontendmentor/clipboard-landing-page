@@ -5,6 +5,8 @@
 
 @import "./layouts/container.css";
 
+@import "./utils/accessibility.css";
+
 @import "./components/button.css";
 @import "./components/intro.css";
 @import "./components/features.css";
