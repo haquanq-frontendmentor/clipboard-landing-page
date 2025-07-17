@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    max-width: 720px;
+    max-width: 45rem;
 
     &__title {
         letter-spacing: -0.016em;
