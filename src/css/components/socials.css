@@ -1,0 +1,22 @@
+.socials {
+    &__list {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__icon path {
+        transition: fill 200ms ease;
+    }
+
+    @media (hover: hover) {
+        &__link:hover &__icon path {
+            fill: var(--color-green-500);
+        }
+    }
+}

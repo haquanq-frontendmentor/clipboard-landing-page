@@ -14,6 +14,8 @@
 @import "./components/tools.css";
 @import "./components/companies.css";
 @import "./components/download.css";
+@import "./components/socials.css";
+@import "./components/nav.css";
 
 .header {
     &__logo {
@@ -23,4 +25,20 @@
 
 .main {
     overflow: hidden;
+}
+
+.footer {
+    background-color: var(--color-gray-100);
+    padding-block: 2.625rem;
+
+    &__container {
+        gap: 3.125rem;
+    }
+
+    @media (--laptop) {
+        &__container {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
 }
