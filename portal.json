@@ -1,7 +1,14 @@
 {
+  "name": "Clipboard Landing Page",
   "favorite": false,
-  "color:": "#26BBA5",
+  "colors:": {
+    "brand": "#26BBA5"
+  },
+  "images": {
+    "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/clipboard-landing-page/main/docs/preview.jpg"
+  },
   "frontendmentor": {
+    "difficulty": "junior",
     "challengeUrl": "https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9",
     "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-with-pixel-perfect-landing-page-SWORns4njk"
   }
